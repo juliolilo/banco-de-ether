@@ -13,7 +13,7 @@ const p_fund = document.getElementById("p_fund");
 const withdrawButton = document.getElementById("withdrawButton");
 
 
-
+alert("Necesitas Metamask en tu navegador para interactuar con el Smart Contract");
 
 async function connect() {
   if (typeof window.ethereum !== "undefined") {
